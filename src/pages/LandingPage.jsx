@@ -301,7 +301,16 @@ const LandingPage = ({ onNavigate }) => {
               <h4 className="font-bold mb-4">Suporte</h4>
               <ul className="space-y-2 text-gray-400">
                 <li>Central de Ajuda</li>
-                <li>Contato</li>
+                <li>
+                  <a
+                    href="https://wa.me/5531984655356"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-white transition-colors"
+                  >
+                    Contato
+                  </a>
+                </li>
                 <li>Status</li>
               </ul>
             </div>
